@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.title {
+
+    color: #13450D;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -12,8 +25,10 @@ body{
 }
 
 .bg{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: linear-gradient(rgba(62,61,61,0.5), rgba(104,103,103,0.5)), url(assets/blood-cells-in-vein_for-web.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/blood-cells-in-vein_for-web.jpg);
+
+    /* background-image: linear-gradient(rgba(62,61,61,0.7), rgba(104,103,103,0.7)), url(assets/blood-cells-in-vein_for-web.jpg); */
     padding: 20px;
     background-size: cover; 
     height: 100vh;
@@ -47,6 +62,7 @@ align-items: center;
 
 
 .header-text{ 
+
     text-align: center;
     color: rgb(242, 241, 241);
     padding: 120px 0 30px 0;
@@ -54,6 +70,9 @@ align-items: center;
     margin: auto;
 }
 
+.header-text p{
+    padding: 30px 0;
+}
 
  .span{
     font-family: cursive;
@@ -64,8 +83,18 @@ align-items: center;
 
 
 
- .header-text p{ 
-    font-size: 13px;
+ .header-text h1 {
+    /* color: #c9f9ff; */
+    color: #adff2f;
+    font-weight: 900;
+    font-size: 3rem;
+ }
+
+ .header-text a {
+    background-color: #adff2f;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px 0;
  }
 
 
@@ -73,15 +102,18 @@ align-items: center;
 .icon{
     font-family: cursive;
     font-weight: bold;
-    color: greenyellow;
+    color: #adff2f;
+
+
+
 }
 
 
 
-.about-section{
+/* .about-section{
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} */
 
 
 
@@ -96,10 +128,7 @@ align-items: center;
 }
 
 
-.about-text h3{
-    padding: 12px;
-    font-size: 18px;
-}
+
 
 
 .btn {
@@ -107,9 +136,9 @@ align-items: center;
     -moz-border-radius: 21;
     border-radius: 21px;
     font-family: Georgia;
-    color: #ffffff;
-    font-size: 20px;
-    background: #b1ccdf;
+    color: black;
+    /* font-size: 20px; */
+    background: #adff2f;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: none;
@@ -157,7 +186,11 @@ align-items: center;
     align-items: center;
     width: 100%;
     margin: auto;
-    background-color: rgb(112, 161, 159);
+    background-color: #13450D;
+    /* background-color: #eee; */
+    padding: 40px 0;
+
+
 }
 
 .new-item-text {
@@ -192,9 +225,17 @@ img {
     }
 
 .services {
-    padding: 50px 30px;
+    /* padding: 50px 30px; */
     text-align: center;
+    
 }
+
+
+.service-items h3 {
+font-weight: bold;
+padding-bottom: 1rem;
+}
+
 
 .service-items {
     color: #061213;
