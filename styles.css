@@ -223,15 +223,36 @@ img {
 
     }
 
-footer {
+/* footer {
     text-align: center;
     color: black ;
 
     padding-bottom: 50px;
-}
+} */
 
 hr{
     color: #061213;
     border-radius: 30px;
     text-decoration: solid;
 }
+
+.Our Team {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.team-items {
+    color: #061213;
+    /* background-color: rgb(229, 241, 241); */
+    padding-bottom: 30px;
+
+}
+
+.team-items  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+
+    }
