@@ -13,7 +13,7 @@ body{
 
 .bg{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: linear-gradient(rgba(62,61,61,0.5), rgba(104,103,103,0.5)), url(assets/cdc-aeh1dbI_a7I-unsplash.jpg);
+    background-image: linear-gradient(rgba(62,61,61,0.5), rgba(104,103,103,0.5)), url(assets/blood-cells-in-vein_for-web.jpg);
     padding: 20px;
     background-size: cover; 
     height: 100vh;
@@ -25,7 +25,7 @@ li, a {
     list-style: none;
     text-decoration: none;
      display: inline-block;
-     margin-right: 20px;
+     /* margin-right: 20px; */
      font-weight: bold;
      padding: 8px;
      font-family: 'Times New Roman', Times, serif;
@@ -34,7 +34,7 @@ li, a {
 
 ul{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -58,7 +58,7 @@ align-items: center;
  .span{
     font-family: cursive;
     color: #eb190a;
-    font-size: 39px;
+    font-size: 43px;
     font-weight: 700;
  }
 
@@ -109,7 +109,7 @@ align-items: center;
     font-family: Georgia;
     color: #ffffff;
     font-size: 20px;
-    background: #3498db;
+    background: #b1ccdf;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: none;
@@ -198,4 +198,40 @@ img {
 
 .service-items {
     color: #061213;
+}
+
+/* for product */
+
+.Products {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.product-items {
+    color: #061213;
+    /* background-color: rgb(229, 241, 241); */
+    padding-bottom: 30px;
+
+}
+
+.product-items  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+
+    }
+
+footer {
+    text-align: center;
+    color: black ;
+
+    padding-bottom: 50px;
+}
+
+hr{
+    color: #061213;
+    border-radius: 30px;
+    text-decoration: solid;
 }
