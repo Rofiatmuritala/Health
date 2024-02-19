@@ -283,11 +283,13 @@ img {
   padding-top: 30px;
   border-radius: 10px;
   color: black;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  /* padding-bottom: 30px;
+  padding-top: 30px; */
   /* padding-left: 20px; */
   /* padding-right: 20px; */
+  padding: 30px 30px;
   border-radius: 10px;
+
 }
 
 .product-items {
@@ -299,6 +301,9 @@ img {
 
 }
 
+.product-card img{
+  border-radius: 10px;
+}
 /* footer {
     text-align: center;
     color: black ;
@@ -310,7 +315,7 @@ img {
 
 
 .Team {
-  padding: 50px 30px;
+  padding: 5px 10px;
   text-align: center;
 }
 
@@ -332,15 +337,15 @@ img {
   grid-template-rows: 1fr;
   grid-column-gap: 50px;
   grid-row-gap: 0px;
-
-  .imgT {
-    width: 100%;
-    height: 50%;
-  }
-
 }
 
 
+.imgT {
+  width: 100%;
+  height: 350px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
 
 
 /* Footer */
@@ -349,6 +354,7 @@ img {
   background: black;
   color: #fff;
   padding: 20px;
+  margin-top: 30px;
 }
 
 /* About Info */
